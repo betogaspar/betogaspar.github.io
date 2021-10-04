@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(black, #122d5a);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li a {
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #122d5a;
+}
+
+h4 {
+    color: rgb(252, 163, 17);
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.imagem-trybe img {
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.texto {
+    color: #FFBF46;
+    text-align: center;
+    list-style: ;
+}
+
+#Imagem {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 50%;
+    color: rgb(252, 163, 17);
+    border-width: 3px;
+    margin: auto;
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.Apresentacao h1 {
+    color: rgb(252, 163, 17);
+    text-align: center;
+}
+
+.informacoes-pessoais {
+    text-align: center;
+}
+
+.lista-habilidades li {
+    text-align: center;
+    color: rgb(252, 163, 17);
+}
+
+.lista-texto {
+    text-align: center;
+    color: rgb(252, 163, 17);
+}
+
+.links h4 {
+    text-align: center;
+}
+
+.Habilidades {
+    text-align: center;
+}
+
+.direitos {
+    text-align: center;
+    color: rgb(252, 163, 17);
+}
+
+.texto a {
+    color: #f5f5f5;
+}
+
+a {
+    color: rgb(252, 163, 17);
+}
